@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Netflix Sans';
+    font-weight: normal;
+    font-display: optional;
+    src: url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff2) format('woff2'),url(https://assets.nflxext.com/ffe/siteui/fonts/netflix-sans/v3/NetflixSans_W_Th.woff) format('woff')
+}
+
+body {
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+    background: black;
+}
+
+a, a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    height: 32px;
+    width: 108px;
+}
+
+.btn-login {
+    background-color: #e50914;
+    padding: 7px 17px;
+    font-weight: 400;
+    font-size: 1rem;
+    color: white;
+    border-radius: 3px;
+}
